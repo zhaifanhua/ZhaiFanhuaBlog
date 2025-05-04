@@ -44,10 +44,12 @@ jobs:
       - name: 安装依赖
         run: pnpm install
 
-      - name: 构建文档
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        run: |
-          # 为 URL 添加 token 用于认证
-          git remote set-url origin https://x-access-token:${GITHUB_TOKEN}@github.com/${GITHUB_REPOSITORY}.git
-          pnpm run deploy
+      - name: 生成静态文件
+        run: npx hexo generate
+
+      - name: 部署到 GitHub Pages
+        uses: JamesIves/github-pages-deploy-action@v4
+        with:
+          folder: public
+          branch: pages
+          token: ${{ secrets.GITHUB_TOKEN }}
