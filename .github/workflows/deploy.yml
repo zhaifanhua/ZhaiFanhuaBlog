@@ -14,11 +14,16 @@ jobs:
     # 服务器环境：最新版 Ubuntu
     runs-on: ubuntu-latest
 
+    # 提供 GitHub token 权限
+    permissions:
+      contents: write
+
     steps:
       - name: 拉取代码
         uses: actions/checkout@v4
         with:
           fetch-depth: 0
+          token: ${{ secrets.GITHUB_TOKEN }}
 
       - name: 安装 Node.js
         uses: actions/setup-node@v4
@@ -40,4 +45,9 @@ jobs:
         run: pnpm install
 
       - name: 构建文档
-        run: pnpm run deploy
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          # 为 URL 添加 token 用于认证
+          git remote set-url origin https://x-access-token:${GITHUB_TOKEN}@github.com/${GITHUB_REPOSITORY}.git
+          pnpm run deploy
