@@ -148,8 +148,5 @@ feed:
 deploy:
   type: git
   repo: https://github.com/zhaifanhua/ZhaiFanhuaBlog.git
-  branch: main
-  message: '自动部署：{{now("YYYY-MM-DD HH/mm/ss")}}'
-  user:
-    name: "zhaifanhua"
-    email: "zhaifanhua@foxmail.com"
+  branch: pages
+  message: 'web updata: {{now("YYYY-MM-DD HH/mm/ss")}}'
