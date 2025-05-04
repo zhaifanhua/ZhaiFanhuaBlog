@@ -8,13 +8,7 @@
     "clean": "hexo clean",
     "deploy": "hexo deploy",
     "server": "hexo server",
-    "clean:lock": "node scripts/clean-lock.mjs",
-    "clean:modules": "node scripts/clean-modules.mjs",
-    "clean:node": "pnpm run clean:lock && pnpm run clean:modules",
-    "clean:build": "node scripts/clean-dist.mjs",
-    "update-pkg": "ncu --deep -u",
-    "reinstall": "pnpm run clean:node && pnpm run bootstrap",
-    "rebuild": "pnpm run clean:build && pnpm run build"
+    "update-pkg": "ncu --deep -u"
   },
   "hexo": {
     "version": "7.3.0"
