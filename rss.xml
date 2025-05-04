@@ -9,13 +9,36 @@
     <atom:link href="https://blog.zhaifanhua.com/rss.xml" rel="self" type="application/rss+xml"/>
     
     <description>白衣无尘，亦如初见。</description>
-    <pubDate>Thu, 17 Aug 2023 18:13:58 GMT</pubDate>
+    <pubDate>Sun, 04 May 2025 20:36:17 GMT</pubDate>
     <generator>http://hexo.io/</generator>
     
     <item>
+      <title>一个功能丰富的 .NET 工具库 XiHan.Framework.Utils</title>
+      <link>https://blog.zhaifanhua.com/2025/05/04/49dae727e01b/</link>
+      <guid>https://blog.zhaifanhua.com/2025/05/04/49dae727e01b/</guid>
+      <pubDate>Sun, 04 May 2025 20:36:17 GMT</pubDate>
+      
+      <description>一个功能丰富的 .NET 工具库 XiHan.Framework.Utils</description>
+      
+      
+      
+      
+      <category domain="https://blog.zhaifanhua.com/categories/CSharp/">CSharp</category>
+      
+      
+      <category domain="https://blog.zhaifanhua.com/tags/CSharp/">CSharp</category>
+      
+      <category domain="https://blog.zhaifanhua.com/tags/NET/">.NET</category>
+      
+      
+      <comments>https://blog.zhaifanhua.com/2025/05/04/49dae727e01b/#disqus_thread</comments>
+      
+    </item>
+    
+    <item>
       <title>Vue学习笔记4-项目开发规范及插件</title>
-      <link>https://blog.zhaifanhua.com/2023/08/18/6f8a2d7c06a5/</link>
-      <guid>https://blog.zhaifanhua.com/2023/08/18/6f8a2d7c06a5/</guid>
+      <link>https://blog.zhaifanhua.com/2023/08/17/6f8a2d7c06a5/</link>
+      <guid>https://blog.zhaifanhua.com/2023/08/17/6f8a2d7c06a5/</guid>
       <pubDate>Thu, 17 Aug 2023 17:57:15 GMT</pubDate>
       
       <description>这里对开发规范的配置仅配置ESLint，对代码格式的配置仅配置Prettier，用于代码格式化。</description>
@@ -29,7 +52,7 @@
       <category domain="https://blog.zhaifanhua.com/tags/Vue/">Vue</category>
       
       
-      <comments>https://blog.zhaifanhua.com/2023/08/18/6f8a2d7c06a5/#disqus_thread</comments>
+      <comments>https://blog.zhaifanhua.com/2023/08/17/6f8a2d7c06a5/#disqus_thread</comments>
       
     </item>
     
@@ -60,8 +83,8 @@
     
     <item>
       <title>用acme.sh自动部署域名证书</title>
-      <link>https://blog.zhaifanhua.com/2022/11/30/199e220c7b2c/</link>
-      <guid>https://blog.zhaifanhua.com/2022/11/30/199e220c7b2c/</guid>
+      <link>https://blog.zhaifanhua.com/2022/11/29/199e220c7b2c/</link>
+      <guid>https://blog.zhaifanhua.com/2022/11/29/199e220c7b2c/</guid>
       <pubDate>Tue, 29 Nov 2022 16:54:08 GMT</pubDate>
       
       <description>用acme.sh自动部署域名证书</description>
@@ -77,14 +100,14 @@
       <category domain="https://blog.zhaifanhua.com/tags/%E5%9F%9F%E5%90%8D/">域名</category>
       
       
-      <comments>https://blog.zhaifanhua.com/2022/11/30/199e220c7b2c/#disqus_thread</comments>
+      <comments>https://blog.zhaifanhua.com/2022/11/29/199e220c7b2c/#disqus_thread</comments>
       
     </item>
     
     <item>
       <title>编辑器常用正则表达式</title>
-      <link>https://blog.zhaifanhua.com/2022/11/30/ba087fd5c740/</link>
-      <guid>https://blog.zhaifanhua.com/2022/11/30/ba087fd5c740/</guid>
+      <link>https://blog.zhaifanhua.com/2022/11/29/ba087fd5c740/</link>
+      <guid>https://blog.zhaifanhua.com/2022/11/29/ba087fd5c740/</guid>
       <pubDate>Tue, 29 Nov 2022 16:52:08 GMT</pubDate>
       
       <description>常用正则表达式</description>
@@ -98,7 +121,7 @@
       <category domain="https://blog.zhaifanhua.com/tags/%E7%BC%96%E8%BE%91%E5%99%A8/">编辑器</category>
       
       
-      <comments>https://blog.zhaifanhua.com/2022/11/30/ba087fd5c740/#disqus_thread</comments>
+      <comments>https://blog.zhaifanhua.com/2022/11/29/ba087fd5c740/#disqus_thread</comments>
       
     </item>
     
@@ -127,8 +150,8 @@
     
     <item>
       <title>《苹果》影评观后感</title>
-      <link>https://blog.zhaifanhua.com/2022/06/22/7898d567165f/</link>
-      <guid>https://blog.zhaifanhua.com/2022/06/22/7898d567165f/</guid>
+      <link>https://blog.zhaifanhua.com/2022/06/21/7898d567165f/</link>
+      <guid>https://blog.zhaifanhua.com/2022/06/21/7898d567165f/</guid>
       <pubDate>Tue, 21 Jun 2022 19:40:25 GMT</pubDate>
       
       <description>《苹果》影评观后感</description>
@@ -142,7 +165,7 @@
       <category domain="https://blog.zhaifanhua.com/tags/%E8%A7%82%E5%90%8E%E6%84%9F/">观后感</category>
       
       
-      <comments>https://blog.zhaifanhua.com/2022/06/22/7898d567165f/#disqus_thread</comments>
+      <comments>https://blog.zhaifanhua.com/2022/06/21/7898d567165f/#disqus_thread</comments>
       
     </item>
     
@@ -169,8 +192,8 @@
     
     <item>
       <title>HTTP状态码大全</title>
-      <link>https://blog.zhaifanhua.com/2022/06/12/cd45c2185b83/</link>
-      <guid>https://blog.zhaifanhua.com/2022/06/12/cd45c2185b83/</guid>
+      <link>https://blog.zhaifanhua.com/2022/06/11/cd45c2185b83/</link>
+      <guid>https://blog.zhaifanhua.com/2022/06/11/cd45c2185b83/</guid>
       <pubDate>Sat, 11 Jun 2022 17:18:26 GMT</pubDate>
       
       <description>常见 HttpStatusCode 含义查询</description>
@@ -184,7 +207,7 @@
       <category domain="https://blog.zhaifanhua.com/tags/%E5%9F%BA%E7%A1%80%E7%9F%A5%E8%AF%86/">基础知识</category>
       
       
-      <comments>https://blog.zhaifanhua.com/2022/06/12/cd45c2185b83/#disqus_thread</comments>
+      <comments>https://blog.zhaifanhua.com/2022/06/11/cd45c2185b83/#disqus_thread</comments>
       
     </item>
     
@@ -318,8 +341,8 @@
     
     <item>
       <title>为VisualStudio新建文件创建版权日期模板</title>
-      <link>https://blog.zhaifanhua.com/2022/04/15/1670a3964288/</link>
-      <guid>https://blog.zhaifanhua.com/2022/04/15/1670a3964288/</guid>
+      <link>https://blog.zhaifanhua.com/2022/04/14/1670a3964288/</link>
+      <guid>https://blog.zhaifanhua.com/2022/04/14/1670a3964288/</guid>
       <pubDate>Thu, 14 Apr 2022 17:43:05 GMT</pubDate>
       
       <description>为VisualStudio新建文件创建版权日期模板</description>
@@ -330,14 +353,14 @@
       <category domain="https://blog.zhaifanhua.com/categories/%E6%95%99%E7%A8%8B/">教程</category>
       
       
-      <category domain="https://blog.zhaifanhua.com/tags/VisualStudio/">VisualStudio</category>
-      
       <category domain="https://blog.zhaifanhua.com/tags/CSharp/">CSharp</category>
+      
+      <category domain="https://blog.zhaifanhua.com/tags/VisualStudio/">VisualStudio</category>
       
       <category domain="https://blog.zhaifanhua.com/tags/DotNet/">DotNet</category>
       
       
-      <comments>https://blog.zhaifanhua.com/2022/04/15/1670a3964288/#disqus_thread</comments>
+      <comments>https://blog.zhaifanhua.com/2022/04/14/1670a3964288/#disqus_thread</comments>
       
     </item>
     
@@ -426,27 +449,6 @@
       
       
       <comments>https://blog.zhaifanhua.com/2021/08/25/b8dcb6cb1c90/#disqus_thread</comments>
-      
-    </item>
-    
-    <item>
-      <title>GitLab的安装与部署</title>
-      <link>https://blog.zhaifanhua.com/2021/08/18/99467d836556/</link>
-      <guid>https://blog.zhaifanhua.com/2021/08/18/99467d836556/</guid>
-      <pubDate>Tue, 17 Aug 2021 21:14:05 GMT</pubDate>
-      
-      <description>GitLab的安装与部署</description>
-      
-      
-      
-      
-      <category domain="https://blog.zhaifanhua.com/categories/%E6%95%99%E7%A8%8B/">教程</category>
-      
-      
-      <category domain="https://blog.zhaifanhua.com/tags/GitLab/">GitLab</category>
-      
-      
-      <comments>https://blog.zhaifanhua.com/2021/08/18/99467d836556/#disqus_thread</comments>
       
     </item>
     
