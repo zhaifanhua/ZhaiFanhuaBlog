@@ -183,7 +183,7 @@
 <h2 id="3-一份相同的代码提交到多个不同的git托管服务器（多个git仓库）"><a href="#3-一份相同的代码提交到多个不同的git托管服务器（多个git仓库）" class="headerlink" title="3.一份相同的代码提交到多个不同的git托管服务器（多个git仓库）"></a>3.一份相同的代码提交到多个不同的git托管服务器（多个git仓库）</h2><p>方法非常相似，多使用到了命令<code>git remote set-url --add [--push] &lt;name&gt; &lt;newurl&gt;</code>，假设在远程的git服务器上又新增了一个仓库repo_c，现在要求repo_b、repo_c提交的代码必须一致。<br>1、将远程repo_c配置到当前的工作的本地git仓库中</p>
 <figure class="highlight ruby"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">git remote set-url --add origin_repo_b git<span class="variable">@192</span>.<span class="number">168.1</span>.<span class="number">101</span><span class="symbol">:~/project/repo_c</span>.git</span><br></pre></td></tr></table></figure>
 
-<p>这句话的意思是，将远程仓库<a href="mailto:&#x67;&#105;&#x74;&#x40;&#x31;&#57;&#50;&#x2e;&#49;&#x36;&#x38;&#46;&#49;&#46;&#49;&#48;&#x31;">git@192.168.1.101</a>:~&#x2F;project&#x2F;repo_c.git也加入到origin_repo_b这个名字下面管理</p>
+<p>这句话的意思是，将远程仓库<a href="mailto:&#103;&#105;&#x74;&#64;&#x31;&#x39;&#50;&#x2e;&#x31;&#x36;&#56;&#46;&#49;&#x2e;&#x31;&#x30;&#49;">git@192.168.1.101</a>:~&#x2F;project&#x2F;repo_c.git也加入到origin_repo_b这个名字下面管理</p>
 <p>2、将代码同时提交到远程仓库repo_b和远程仓库repo_c</p>
 <figure class="highlight perl"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">git <span class="keyword">push</span> origin_repo_b branch_a</span><br></pre></td></tr></table></figure>
 
